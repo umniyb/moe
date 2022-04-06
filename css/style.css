@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+header{
+    display: flex;
+    width: 100%;
+    height: 4vh;
+    margin: 3% 0 3% 0;
+    justify-content: space-around;
+}
+#metro_blog{
+    width: 20%;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+}
+#metr{
+    color: gray;
+}
+header img{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
+nav{
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    justify-content: space-around;
+}
+.nav_item{
+    padding: 5%  10% 5%  10%;
+    margin-right: 30%;
+    transition: background-color 1s ease-in-out;
+    transition: color 1s ease-in-out;
+}
+.nav_item:hover{
+    background-color: #373737;
+    color: white;
+}
+
+
+/* reviews */
+#reviews{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 20%;
+}
+#reviews button{
+    display: flex;
+    background: transparent;
+    background-color: #373737;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    width: 69%;
+    padding: 2.2%;
+    font-size: 1.5em;
+    border: none;
+}
+#reviews button img{
+    margin-right: 5%;
+}
+.video{
+    width: 20%;
+    margin-right: 10%;
+}
+.video p{
+    color: gray;
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+.video h1{
+    color: gray;
+    font-size: 3.7em;
+}
+#reviews>img{
+    margin-top: 10%;
+}
+
+
+/* mini */
+#mini{
+
+    display: flex;
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+.middle{
+    margin: 0 5% 0 5%;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: flex-start;
+    color: #6a6a6a;
+}
+.middle h5{
+    line-height: 20px;
+    margin: 5% 0 5% 0;
+}
+.end{
+    margin-left: 80%;
+}
+
+
+/*big*/
+#big{
+    display: flex;
+    width: 50%;
+    margin: 1% 25% 0 25%;
+}
+.container{
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.big_item{
+    width: 30%;
+    margin: 1%;
+    color: #6a6a6a;
+}
+form{
+    background-color: #393a39;
+    color: whitesmoke;
+    width: 64%;
+    padding: 5%;
+    text-align: center;
+}
+form h2{
+    text-align: center;
+}
+form p{
+    text-align: left;
+}
+form button{
+    background-color: #bb4465;
+    border: none;
+    color: whitesmoke ;
+    border-radius: 10%;
+    padding: 2%;
+    display: block;
+    text-align: center;
+}
+hr{
+    display: block;
+    background-color: #bb4465;
+    color: #bb4465;
+    border: none;
+    height: 10px;
+    width: 74%;
+}
+form input{
+    border: none;
+    margin: 3%;
+    padding: 3%;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    background-color: #393a39;
+    font-weight: bolder;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 1%;
+}
+.icons{
+    margin-left: 20%;
+}

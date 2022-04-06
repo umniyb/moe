@@ -111,7 +111,7 @@ nav{
 /*big*/
 #big{
     display: flex;
-    width: 50%;
+    width: 60%;
     margin: 1% 25% 0 25%;
 }
 .container{
@@ -124,10 +124,16 @@ nav{
     margin: 1%;
     color: #6a6a6a;
 }
+
+
+/* aside */
+aside{
+margin-left: 10%;
+}
 form{
     background-color: #393a39;
     color: whitesmoke;
-    width: 64%;
+    width: 59%;
     padding: 5%;
     text-align: center;
 }
@@ -146,7 +152,7 @@ form button{
     display: block;
     text-align: center;
 }
-aside hr{
+#hr{
     display: block;
     background-color: #bb4465;
     color: #bb4465;

@@ -124,6 +124,12 @@ nav{
     margin: 1%;
     color: #6a6a6a;
 }
+.big_item h2{
+    margin-bottom: 30px;
+}
+.big_item h5{
+    margin-bottom: 30px;
+}
 
 
 /* aside */
@@ -180,4 +186,65 @@ footer{
 }
 .icons{
     margin-left: 20%;
+}
+@media (max-width: 900px) {
+    header{
+        margin-top: 90px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .bottom_header{
+        margin-top: 100px;
+        width: 900px;
+    }
+    .video{
+        margin: 0;
+        font-size: .7em;
+        flex-wrap: nowrap;
+    }
+    #reviews{
+        margin-left: 150px;
+    }
+    #reviews>img{
+        width: 500px;
+    }
+    .video{
+        width: 450px;
+    }
+    #mini{
+        margin-left: 340px;
+        flex-wrap: wrap;
+    }
+    #mini>img{
+        width: 250px;
+        height: 250px;
+    }
+    .middle{
+        margin-left: -120px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #big{
+        margin-left: 150px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    #big .container{
+        width: 600px;
+    }
+    aside{
+        width: 650px;
+        margin-left: 100px;
+    }
+    aside img{
+        margin-left: 35px;
+    }
+    #hr{
+        width: 365px;
+    }
+    form{
+        width: 300px;
+        margin-right: 0;
+    }
 }
